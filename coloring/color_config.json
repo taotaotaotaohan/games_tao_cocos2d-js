@@ -1,0 +1,71 @@
+{
+    "name":"1_drag_drop",
+    "background":"res/bg1.png",
+    "background_sound":"res/audio/bg1.mp3",
+    "sound_intro": "",
+    "sound_start": "",
+
+    "images":[
+        {
+            "res":"res/image0.png",
+            "scale":"1.1",
+            "rotate": "20",
+            "sound_click":"res/audio/cs.mp3",
+            "sound_idle":"res/audio/idle.mp3",
+            "animation_click":"work",
+            "animation_idle":"idle",
+            "animation_start":"start",
+            "animation_end":"end",
+            "x":100,
+            "y":200
+        },
+        {
+            "res":"res/image2.png",
+            "scale":"1.1",
+            "rotate": "20",
+            "sound_click":"res/audio/cs.mp3",
+            "sound_idle":"res/audio/idle.mp3",
+            "animation_click":"work",
+            "animation_idle":"idle",
+            "animation_start":"start",
+            "animation_end":"end",
+            "x":400,
+            "y":200
+        }
+    ],
+
+    "erase_layer":[
+        {
+            "res":"res/0.png",
+            "scale":"1.1",
+            "rotate":"20",
+            "pos_x":100,
+            "pos_y":200,
+
+            "animation_end": "zoom",
+
+            "sound_erase": ""
+        }
+    ],
+
+    "erase_tool":[
+        {
+            "res":"res/2.png",
+            "scale":"1.1",
+            "rotate":"20",
+            "pos_x":100,
+            "pos_y":200,
+
+            "animation_start": "popout",
+            "animation_end": "zoom",
+            "animation_idle": "shake",
+            "animation_click": "zoom",
+
+            "sound_click": "",
+
+            "shape_pos_x":105,
+            "shape_pos_y":201,
+            "shape_radius":10
+        }
+    ]
+}
